@@ -1,0 +1,10 @@
+# Parsed from the supplied combined_data.csv; retained as an initial, read-only seed.
+SEED_CSV = '''RecordType,Name,Date,Pending,Settled,Label,SessionsPerWeek,Level,Term,OriginalTerm,PendingSessions,Note,Labels,ClassDays
+attendance,a,2026-10-10,False,False,,,,,,,,,
+attendance,a,2026-10-10,True,False,,,,,,,,,
+label,,,,,xds,,,,,,, ,
+label,,,,,dsds,,,,,,, ,
+label,,,,,a,,,,,,, ,
+label,,,,,ded2,,,,,,, ,
+student,a,,,,,2.0,Beginner,0.0,3.0,1.0,a,a,Sunday
+'''

@@ -1,0 +1,34 @@
+[project]
+name = "attendance-manager"
+version = "1.0.0"
+description = "Manage students, class schedules, attendance, reports, and labels in Persian or English."
+requires-python = ">=3.12"
+authors = [
+    { name = "Delsa Vaghar", email = "delsavaghar@gmail.com" }
+]
+dependencies = [
+    "flet"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Attendance Manager"
+
+[tool.flet]
+org = "dev.flet"
+company = "Delsa Vaghar"
+copyright = "Copyright (C) 2026 by Delsa Vaghar"
+icon_background = "#CAD2C5"
+
+[tool.flet.splash]
+color = "#CAD2C5"
+dark_color = "#CAD2C5"
+
+[tool.flet.app]
+path = "src"
